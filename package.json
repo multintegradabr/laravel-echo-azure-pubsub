@@ -1,5 +1,5 @@
 {
-  "name": "laravel-echo-azure-pubsub",
+  "name": "@multintegradabr/laravel-echo-azure-pubsub",
   "version": "1.0.0",
   "description": "Custom Laravel Echo Connector to use Azure Pubsub",
   "keywords": [
@@ -12,9 +12,9 @@
   "author": "Mackensie Alvarez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mackensiealvarezz/laravel-echo-azure-pubsub/issues"
+    "url": "https://github.com/multintegradabr/laravel-echo-azure-pubsub/issues"
   },
-  "homepage": "https://github.com/mackensiealvarezz/laravel-echo-azure-pubsub#readme",
+  "homepage": "https://github.com/multintegradabr/laravel-echo-azure-pubsub#readme",
   "main": "dist/azure-pubsub-connector.common.js",
   "module": "dist/azure-pubsub-connector.js",
   "types": "dist/azure-pubsub-connector.d.ts",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mackensiealvarezz/laravel-echo-azure-pubsub.git"
+    "url": "git+https://github.com/multintegradabr/laravel-echo-azure-pubsub.git"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^20.0.0",
@@ -43,5 +43,8 @@
   },
   "browser": {
     "crypto": false
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
